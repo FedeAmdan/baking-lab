@@ -12,13 +12,13 @@
         var defaults = {
             mainClassName : 'pgwSlideshow',
             transitionEffect : 'sliding',
-            displayList : true,
+            displayList : false,
             displayControls : true,
             touchControls : true,
             autoSlide : false,
             beforeSlide : false,
             afterSlide : false,
-            maxHeight : null,
+            maxHeight : 500,
             adaptiveDuration : 200,
             transitionDuration : 500,
             intervalDuration : 3000
