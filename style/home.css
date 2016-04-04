@@ -1,3 +1,8 @@
+/* reset all margin and paddings to get rid of some nasty browser effects */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 #root:{
     max-width: 730px;/*
